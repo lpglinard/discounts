@@ -22,7 +22,7 @@ class LoyaltyServiceTest {
 
     @Test
     public void test_returnFalseIfClientIsNotMember() {
-        int id = 1;
+        int id = 2;
         boolean loyaltyStatus = loyaltyService.checkLoyaltyStatus(id);
         assertFalse(loyaltyStatus);
     }
