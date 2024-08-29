@@ -1,3 +1,10 @@
+# Participantes 
+  ## Grupo 4
+    - Carlos Eduardo Brandão
+    - Joao Pedro Lima
+    - Vitor Hugo
+    - Victor Luciano 
+
 # Nova Regra de Negócio para o Sistema de Pedidos
   ## Desconto Baseado na Quantidade de Itens:
      - Se o pedido tiver 20 ou mais itens:
