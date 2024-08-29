@@ -35,8 +35,8 @@ class PromoServiceTest {
     public void test_TodayAfterPromoPeriod_ReturnsFalse() {
         //Prepare
         LocalDate today = LocalDate.now();
-        LocalDate start = LocalDate.now().minusDays(1);
-        LocalDate end = LocalDate.now().plusDays(1);
+        LocalDate start = LocalDate.now().minusDays(5);
+        LocalDate end = LocalDate.now().minusDays(1);
         service.setPromoStart(start);
         service.setPromoEnd(end);
 
