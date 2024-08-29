@@ -16,7 +16,8 @@ class LoyaltyServiceTest {
     @Test
     public void test_returnTrueIfClientIsMember() {
         int id = 1;
-        loyaltyService.checkLoyaltyStatus();
+        boolean loyaltyStatus = loyaltyService.checkLoyaltyStatus(id);
+        assertTrue(loyaltyStatus);
     }
 
 }
