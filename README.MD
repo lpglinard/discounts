@@ -1,3 +1,4 @@
+# Alunos: Pedro Azevedo, Erick da Costa, Mateus Recalde
 # Nova Regra de Negócio para o Sistema de Pedidos
   ## Desconto Baseado na Quantidade de Itens:
      - Se o pedido tiver 20 ou mais itens:
