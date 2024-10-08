@@ -23,6 +23,21 @@ public class PromoService {
     }
 
     public boolean checkPromoPeriod(LocalDate today) {
-        return true;
+
+        boolean isValido; //Inicializando variavel
+        LocalDate dataInicio = getPromoStart();
+        LocalDate dataFim = getPromoEnd();
+
+        if((today.isAfter(dataInicio) || today == dataInicio)
+                && ((today.isBefore(dataFim) || today == dataFim))){
+
+           isValido = true;
+
+        }else{
+
+            isValido = false;
+
+        }
+        return isValido;
     }
 }
